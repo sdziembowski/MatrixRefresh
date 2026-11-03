@@ -1,0 +1,35 @@
+# Dependency caches and Lean build products
+.lake/
+*.olean
+*.ilean
+*.trace
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Publish the reference note as PDF only
+*.tex
+/.latexmkrc
+/reference-listings/
+/scripts/export-lean-listings.py
+
+# LaTeX build products; the reference-note PDF is maintained
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.synctex
+*.synctex(busy)
+*.synctex.gz(busy)
+*.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+.latexmk.lock
+
+# OS metadata
+.DS_Store
