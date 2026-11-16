@@ -6,5 +6,6 @@ formalization.
 
 ## Versions
 
-- [Version 1](version-1.0/): [paper](version-1.0/main.pdf) and
+- [Version 1](version-1.0/): [paper](version-1.0/main.pdf),
+  [slides](version-1.0/talk.pdf), and
   [Lean formalization](version-1.0/lean/).
